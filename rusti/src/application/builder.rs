@@ -13,6 +13,7 @@ impl BuilderState for NeedsRenderer {}
 
 pub struct ApplicationBuilder<T:Application, State : BuilderState> {
     app : T,
+    rendering_engine : Box<dyn rusti_rendering::Renderer>,
     _state : std::marker::PhantomData<State>
 }
 

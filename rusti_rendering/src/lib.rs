@@ -1,7 +1,6 @@
 //! This crate is meant to be used to crate custom rendering engines for rusti.
 
-trait Renderer {
-    fn render(&mut self, resource:rusti_resources::Resource);
+pub trait Renderer {
 }
 
 

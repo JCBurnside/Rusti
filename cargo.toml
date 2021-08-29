@@ -2,5 +2,4 @@
 members = [
     "rusti", #super crate
     "rusti_rendering",# platform agnostic rendering stuff.  mostly traits to be impled by a backend.
-    "rusti_resources", #crate for handling dynamically loaded resources.
 ]
